@@ -1,21 +1,14 @@
-import cLogo from '../assets/c.png'
-import cppLogo from '../assets/cpp.png'
-import csharpLogo from '../assets/csharp.png'
-import javaLogo from '../assets/java.png'
-import pythonLogo from '../assets/python.png'
-import htmlLogo from '../assets/html.png'
-import cssLogo from '../assets/css.png'
-import javascriptLogo from '../assets/javascript.png'
-import phpLogo from '../assets/php.png'
-
 export const languages = [
-    { name: 'C', image: cLogo },
-    { name: 'C++', image: cppLogo },
-    { name: 'C#', image: csharpLogo },
-    { name: 'Java', image: javaLogo },
-    { name: 'Python', image: pythonLogo },
-    { name: 'HTML', image: htmlLogo },
-    { name: 'CSS', image: cssLogo },
-    { name: 'JavaScript', image: javascriptLogo },
-    { name: 'PHP', image: phpLogo }
+    { name: 'C', level: 'Intermediate', icon: 'fas fa-code' },
+    { name: 'C++', level: 'Intermediate', icon: 'fas fa-terminal' },
+    { name: 'C#', level: 'Advanced', icon: 'fas fa-hashtag' },
+    { name: 'Java', level: 'Advanced', icon: 'fab fa-java' },
+    { name: 'Python', level: 'Intermediate', icon: 'fab fa-python' },
+    { name: 'HTML5', level: 'Advanced', icon: 'fab fa-html5' },
+    { name: 'CSS3', level: 'Advanced', icon: 'fab fa-css3-alt' },
+    { name: 'JavaScript', level: 'Advanced', icon: 'fab fa-js' },
+    { name: 'PHP', level: 'Intermediate', icon: 'fab fa-php' },
+    { name: 'SQL', level: 'Intermediate', icon: 'fas fa-database' },
+    { name: 'Laravel', level: 'Intermediate', icon: 'fab fa-laravel' },
+    { name: 'Node.js', level: 'Intermediate', icon: 'fab fa-node' },
 ];

@@ -1,52 +1,26 @@
-import { useState, useEffect } from 'react'
-import { languages } from '../data/Languages'
+import React from 'react';
+import { languages } from '../data/Languages';
+import useScrollAnimation from '../hooks/useScrollAnimation';
 
 function Languages() {
-  const [startIndex, setStartIndex] = useState(0);
-  const itemsToShow = 5;
+    useScrollAnimation();
 
-  // Create a circular array for smooth scrolling
-  const getCircularArray = () => {
-    const repeatedLanguages = [...languages, ...languages];
-    return repeatedLanguages;
-  };
-
-  const handlePrevPage = () => {
-    setStartIndex((prev) => {
-      const newIndex = prev - 1;
-      return newIndex < 0 ? languages.length - 1 : newIndex;
-    });
-  };
-
-  const handleNextPage = () => {
-    setStartIndex((prev) => {
-      const newIndex = prev + 1;
-      return newIndex >= languages.length ? 0 : newIndex;
-    });
-  };
-
-  const getDisplayedLanguages = () => {
-    const circularArray = getCircularArray();
-    return circularArray.slice(startIndex, startIndex + itemsToShow);
-  };
-
-  return (
-    <section className="languages-section">
-      <h2>Languages</h2>
-      <div className="list-container">
-        <button id="prevPage" className="arrow-btn prev-btn" onClick={handlePrevPage}>&#10094;</button>
-        <ul id="languageList" className="language-list">
-          {getDisplayedLanguages().map((language, index) => (
-            <li key={`${startIndex}-${index}`} className="language-item">
-              <img src={language.image} alt={language.name} />
-              <p>{language.name}</p>
-            </li>
-          ))}
-        </ul>
-        <button id="nextPage" className="arrow-btn next-btn" onClick={handleNextPage}>&#10095;</button>
-      </div>
-    </section>
-  );
+    return (
+        <section className="languages-section" id="languages">
+            <h2 className="animate-on-scroll">Skills & Technologies</h2>
+            <div className="languages-container">
+                <div className="languages-grid stagger-children animate-on-scroll">
+                    {languages.map((lang, index) => (
+                        <div key={index} className="language-card">
+                            <i className={`${lang.icon} language-icon`}></i>
+                            <h3 className="language-name">{lang.name}</h3>
+                            <p className="language-level">{lang.level}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
 }
 
 export default Languages;

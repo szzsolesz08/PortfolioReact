@@ -10,63 +10,63 @@ import companyImg from '../assets/company.png'
 
 export const projects = [
     {
-        name: "Servers and Clients",
+        title: "Servers and Clients",
         description: "A collection of server and client implementations showcasing network programming and communication protocols.",
         image: serversImg,
         technologies: ["Python", "Networking", "Socket Programming"],
         github: "https://github.com/szzsolesz08/ServersAndClients"
     },
     {
-        name: "Yogi Bear Game",
+        title: "Yogi Bear Game",
         description: "A fun game implementation featuring Yogi Bear, demonstrating game development and graphics programming skills.",
         image: yogiBearImg,
-        technologies: ["Java", "JavaFX", "Game Development"],
+        technologies: ["Java", "Swing", "Game Development"],
         github: "https://github.com/szzsolesz08/YogiBear"
     },
     {
-        name: "Sheep Farm",
+        title: "Sheep Farm",
         description: "A farm management simulation game where players manage a sheep farm, showcasing object-oriented programming.",
         image: sheepFarmImg,
         technologies: ["Java", "OOP", "Game Development"],
         github: "https://github.com/szzsolesz08/SheepFarm"
     },
     {
-        name: "Go Game",
+        title: "Go Game",
         description: "An implementation of the classic Go board game, featuring AI opponents and multiplayer capabilities.",
         image: goGameImg,
-        technologies: ["Java", "AI", "Game Development"],
+        technologies: ["Java", "Swing", "Game Development"],
         github: "https://github.com/szzsolesz08/GoGame"
     },
     {
-        name: "Company App",
+        title: "Company App",
         description: "A comprehensive company management application for handling employees, departments, and business operations.",
         image: companyImg,
-        technologies: ["PHP", "Database", "Laravel", "Web Development"],
+        technologies: ["PHP", "Laravel", "Database", "Web Development"],
         github: "https://github.com/szzsolesz08/CompanyApp"
     },
     {
-        name: "Pokemon Game PHP",
+        title: "Pokemon Game PHP",
         description: "A web-based Pokemon game implementation using PHP, demonstrating web development and game mechanics.",
         image: pokemonImg,
-        technologies: ["PHP", "HTML", "CSS", "Game Development"],
+        technologies: ["HTML", "CSS", "PHP", "Game Development"],
         github: "https://github.com/szzsolesz08/pokegame_php"
     },
     {
-        name: "RPG Game",
+        title: "RPG Game",
         description: "A role-playing game featuring character development, combat systems, and adventure elements.",
         image: rpgImg,
-        technologies: ["C#", "Game Development", "OOP"],
+        technologies: ["C#", ".NET", "Game Development"],
         github: "https://github.com/szzsolesz08/RPG_Game"
     },
     {
-        name: "Super Adventure",
+        title: "Super Adventure",
         description: "An exciting adventure game showcasing game design and programming skills.",
         image: superAdventureImg,
-        technologies: ["Game Development"],
+        technologies: ["C#", ".NET", "Game Development"],
         github: "https://github.com/szzsolesz08/SuperAdventure"
     },
     {
-        name: "Portfolio Website",
+        title: "Portfolio Website",
         description: "A modern, responsive portfolio website showcasing my projects and skills. Features include dynamic project cards, contact form integration, and smooth animations.",
         image: portfolioImg,
         technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Formspree"],
