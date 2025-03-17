@@ -1,12 +1,12 @@
-import yogiBearImg from '../assets/yogibear.png'
-import pokemonImg from '../assets/pokemon.png'
-import goGameImg from '../assets/gogame.png'
-import portfolioImg from '../assets/portfolio.png'
-import rpgImg from '../assets/rpg.png'
-import serversImg from '../assets/servers.png'
-import sheepFarmImg from '../assets/sheepfarm.png'
-import superAdventureImg from '../assets/superadventure.png'
-import companyImg from '../assets/company.png'
+import yogiBearImg from '../images/yogibear.png'
+import pokemonImg from '../images/pokemon.png'
+import goGameImg from '../images/gogame.png'
+import portfolioImg from '../images/portfolio.png'
+import rpgImg from '../images/rpg.png'
+import serversImg from '../images/servers.png'
+import sheepFarmImg from '../images/sheepfarm.png'
+import superAdventureImg from '../images/superadventure.png'
+import companyImg from '../images/company.png'
 
 export const projects = [
     {

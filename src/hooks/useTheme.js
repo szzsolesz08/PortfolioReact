@@ -2,11 +2,8 @@ import { useState, useEffect } from 'react';
 
 const useTheme = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    // Check if user has a saved preference
     const savedTheme = localStorage.getItem('theme');
-    // Check system preference if no saved preference
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    return savedTheme ? savedTheme === 'dark' : prefersDark;
+    return savedTheme ? savedTheme === 'dark' : true;
   });
 
   useEffect(() => {

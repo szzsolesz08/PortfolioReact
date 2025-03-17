@@ -1,5 +1,5 @@
 import React from 'react';
-import { projects } from '../data/Projects';
+import { projects } from '../assets/data/Projects';
 import ProjectCard from './ProjectCard';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 

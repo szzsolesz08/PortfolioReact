@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../assets/pfp.jpg';
+import profileImg from '../assets/images/pfp.jpg';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
 function Introduction() {

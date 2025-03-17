@@ -20,16 +20,22 @@ A modern, responsive portfolio website built with React, showcasing my projects 
 ## Project Structure
 
 ```
-src/
-├── assets/                 # Images and static files
-├── data/                   # Data files for projects and languages
-├── view/                   # React components
-│   ├── App.jsx             # Main application component
-│   ├── Languages.jsx       # Languages carousel component
-│   ├── Projects.jsx        # Projects showcase component
-│   ├── ProjectCard.jsx     # Individual project card component
-│   └── Contact.jsx         # Contact form component
-└── main.jsx                # Application entry point
+├── public/                 # Static assets served as-is
+│   ├── favicon.ico         # Website favicon
+│   ├── site.webmanifest    # Web app manifest
+│   └── *.png               # Various icon sizes for different platforms
+├── src/
+│   ├── assets/             # Processed assets
+│   │   ├── data/           # Data files (Languages.js, Projects.js)
+│   │   └── images/         # Images used in components
+│   ├── view/               # React components
+│   │   ├── App.jsx         # Main application component
+│   │   ├── Languages.jsx   # Languages carousel component
+│   │   ├── Projects.jsx    # Projects showcase component
+│   │   ├── ProjectCard.jsx # Individual project card component
+│   │   └── Contact.jsx     # Contact form component
+│   └── main.jsx            # Application entry point
+└── index.html              # Entry point HTML file
 ```
 
 ## Getting Started

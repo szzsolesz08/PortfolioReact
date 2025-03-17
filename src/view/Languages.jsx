@@ -1,5 +1,5 @@
 import React from 'react';
-import { languages } from '../data/Languages';
+import { languages } from '../assets/data/Languages';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 
 function Languages() {
