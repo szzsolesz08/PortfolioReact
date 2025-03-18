@@ -5,7 +5,7 @@ function Contact() {
     useScrollAnimation();
 
     return (
-        <section className="contact-section">
+        <section className="contact-section" id='contact'>
             <div className="contact-container">
                 <div className="contact-info animate-on-scroll fade-in-left">
                     <h2>Get in Touch</h2>

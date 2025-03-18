@@ -6,7 +6,7 @@ function Languages() {
     useScrollAnimation();
 
     return (
-        <section className="languages-section" id="languages">
+        <section className="languages-section" id="tech-stack">
             <h2 className="animate-on-scroll">Skills & Technologies</h2>
             <div className="languages-container">
                 <div className="languages-grid stagger-children animate-on-scroll">

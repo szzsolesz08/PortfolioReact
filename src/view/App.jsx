@@ -3,7 +3,7 @@ import Languages from './Languages';
 import Projects from './Projects';
 import Contact from './Contact';
 import Introduction from './Introduction';
-import ThemeToggle from '../components/ThemeToggle';
+import Navigation from './Navigation';
 import useScrollAnimation from '../hooks/useScrollAnimation';
 import useTheme from '../hooks/useTheme';
 
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="app">
-      <ThemeToggle isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
+      <Navigation />
       <main>
         <Introduction />
         <Languages />

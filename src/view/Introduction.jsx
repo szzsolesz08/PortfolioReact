@@ -6,7 +6,7 @@ function Introduction() {
     useScrollAnimation();
 
     return (
-        <section className="intro-section">
+        <section className="intro-section" id='home'>
             <div className="intro-container">
                 <div className="intro-content animate-on-scroll fade-in-left">
                     <h1>Hi, I'm <span className="highlight">Zsolt Szabo</span></h1>
